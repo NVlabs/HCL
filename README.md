@@ -1,18 +1,22 @@
-# Heterogeneous Continual Learning
+<div align="center">
 
-Official PyTorch implementation of [**Heterogeneous Continual Learning**](https://arxiv.org/abs/2306.08593).
+# Heterogeneous Continual Learning
+[![Conference](http://img.shields.io/badge/CVPR-2023(Highlight)-FFD93D.svg)](https://cvpr.thecvf.com/)
+[![Paper](http://img.shields.io/badge/Paper-arxiv.2303.14369-FF6B6B.svg)](https://arxiv.org/abs/2306.08593)
+</div>
+
+Official PyTorch implementation of CVPR 2023 Highlight (Top 10%) paper [**Heterogeneous Continual Learning**](https://arxiv.org/abs/2306.08593).
 
 **Authors**: [Divyam Madaan](https://dmadaan.com/),  [Hongxu Yin](https://hongxu-yin.github.i), [Wonmin Byeon](https://wonmin-byeon.github.i), [Pavlo Molchanov](https://research.nvidia.com/person/pavlo-molchano),
 
 For business inquiries, please visit our website and submit the form: [NVIDIA Research Licensing](https://www.nvidia.com/en-us/research/inquiries/)
 
----
 **TL;DR: First continual learning approach in which the architecture continuously evolves with the data.**
--- 
+
+![conceptFigure.pdf](https://github.com/NVlabs/HCL/blob/main/assets/concept_figure.png)
+
+
 ## Abstract
-
-![concept figure](https://github.com/divyam3897/cvpr_hcl/files/13549399/concept_figure.pdf)
-
 We propose a novel framework and a solution to tackle
 the continual learning (CL) problem with changing network
 architectures. Most CL methods focus on adapting a single
@@ -59,7 +63,7 @@ __Contribution of this work__
 $ pip install -r requirements.txt
 ```
 
-## Quick start
+## 🚀 Quick start
 
 ### Training 
 
@@ -82,20 +86,29 @@ To change the dataset and method, use the configuration files from `./configs`.
 
 We'd love to accept your contributions to this project. Please feel free to open an issue, or submit a pull request as necessary. If you have implementations of this repository in other ML frameworks, please reach out so we may highlight them here.
 
+## 🎗️ Acknowledgment
+
+The code is build upon [aimagelab/mammoth](https://github.com/aimagelab/mammoth), [divyam3897/UCL](https://github.com/divyam3897/UCL), [kuangliu/pytorch-cifar](https://github.com/kuangliu/pytorch-cifar/tree/master), [sutd-visual-computing-group/LS-KD-compatibility](https://github.com/sutd-visual-computing-group/LS-KD-compatibility), and [berniwal/swin-transformer-pytorch](https://github.com/berniwal/swin-transformer-pytorch).
+
+We thank the authors for their amazing work and releasing the code base.
+
+
 ## Licenses
 
 Copyright © 2023, NVIDIA Corporation. All rights reserved.
 
 This work is made available under the NVIDIA Source Code License-NC. Click [here](LICENSE) to view a copy of this license.
 
+For license information regarding the mammoth repository, please refer to its [repository](https://github.com/aimagelab/mammoth/blob/master/LICENSE).    
+For license information regarding the UCL repository, please refer to its [repository](https://github.com/divyam3897/UCL/blob/main/LICENSE).   
+For license information regarding the pytorch-cifar repository, please refer to its [repository](https://github.com/kuangliu/pytorch-cifar/blob/master/LICENSE).        
+For license information regarding the LS-KD repository, please refer to its [repository](https://github.com/sutd-visual-computing-group/LS-KD-compatibility/blob/master/LICENSE).   
+For license information regarding the swin-transformer repository, please refer to its [repository](https://github.com/berniwal/swin-transformer-pytorch/blob/master/LICENSE).   
 
-## Acknowledgment
 
-The code is build upon [aimagelab/mammoth](https://github.com/aimagelab/mammoth), [divyam3897/UCL](https://github.com/divyam3897/UCL), [kuangliu/pytorch-cifar](https://github.com/kuangliu/pytorch-cifar/tree/master), [sutd-visual-computing-group/LS-KD-compatibility](https://github.com/sutd-visual-computing-group/LS-KD-compatibility), and [berniwal/swin-transformer-pytorch](https://github.com/berniwal/swin-transformer-pytorch).
+## 📌 Citation
 
-## Citation
-
-If you found the provided code useful, please cite our work.
+If you find this paper useful, please consider staring 🌟 this repo and citing 📑 our paper:
 
 ```bibtex
 @inproceedings{madaan2023heterogeneous,
